@@ -47,7 +47,7 @@ export default function HeaderBar() {
         <input
           type="text"
           style={{
-            width: "500px",
+            width: "505px",
             height: "51px",
             border: "2px solid #003CFF",
             borderRadius: "11px",

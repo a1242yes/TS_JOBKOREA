@@ -11,7 +11,7 @@ export default function List({ title, items }: ListProps) {
   }, []);
 
   return (
-    <div style={{ padding: "10px" }}>
+    <div style={{ padding: "10px", marginLeft: "30px" }}>
       <h3
         style={{
           fontSize: "20px",

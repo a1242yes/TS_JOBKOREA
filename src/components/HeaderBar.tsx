@@ -47,7 +47,7 @@ export default function HeaderBar() {
         <input
           type="text"
           style={{
-            width: "553px",
+            width: "500px",
             height: "51px",
             border: "2px solid #003CFF",
             borderRadius: "11px",
@@ -71,7 +71,7 @@ export default function HeaderBar() {
       </div>
 
       {/* IconCompany 컴포넌트 */}
-      <div style={{ marginTop: "54px" }}>
+      <div style={{ marginTop: "63px", marginLeft: "300px" }}>
         <IconCompany />
       </div>
 

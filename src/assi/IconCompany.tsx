@@ -19,8 +19,8 @@ export default function IconCompany() {
           src="/images/iconAlbamon.png"
           alt="iconAlbamon"
           style={{
-            width: "24px",
-            height: "24px",
+            width: "30px",
+            height: "30px",
             display: "inline-block",
             verticalAlign: "middle",
           }}
@@ -49,8 +49,8 @@ export default function IconCompany() {
           src="/images/iconGamejob.png"
           alt="iconAlbamon"
           style={{
-            width: "24px",
-            height: "24px",
+            width: "30px",
+            height: "30px",
             display: "inline-block",
             verticalAlign: "middle",
           }}
@@ -78,8 +78,8 @@ export default function IconCompany() {
           src="/images/iconNinehire.png"
           alt="iconAlbamon"
           style={{
-            width: "24px",
-            height: "24px",
+            width: "30px",
+            height: "30px",
             display: "inline-block",
             verticalAlign: "middle",
           }}
@@ -106,8 +106,8 @@ export default function IconCompany() {
           src="/images/iconKlik.png"
           alt="iconAlbamon"
           style={{
-            width: "24px",
-            height: "24px",
+            width: "30px",
+            height: "30px",
             display: "inline-block",
             verticalAlign: "middle",
           }}

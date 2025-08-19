@@ -83,7 +83,7 @@ export default function HeaderBar() {
           left: "200px",
           display: "flex",
           alignItems: "center",
-          gap: "298px",
+          gap: "248px",
         }}
         onMouseEnter={() => setShowDropdown(true)}
         onMouseLeave={() => setShowDropdown(false)}

@@ -7,11 +7,16 @@ export default function Cardtest() {
   }, []);
 
   return (
-    <div>
+    <div
+      style={{
+        width: "1920px",
+        height: "100px",
+        marginBottom: "90px",
+      }}
+    >
       <div
         style={{
           width: "1575px",
-          background: "#ffffffff",
           height: "315px",
           display: "flex",
           margin: "0 auto", // 👉 화면 가로 가운데 정렬
@@ -136,7 +141,7 @@ export default function Cardtest() {
           <Card
             backgroundimg="/images/dx.jpg"
             logoimg="/images/dxlogo.png"
-            title="[취업연계] AI인공지능˙UXUI
+            title="[취업연계] AI인공지능햐햐UXUI
             디자인˙풀스택개발 부트캠트"
             sutitle="*50+개 협력기업 연계형 과정
             *1:1 취업컨설팅 및 사후관리

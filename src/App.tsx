@@ -8,6 +8,11 @@ import Login from "./assi/login";
 import HeaderList from "./assi/HeaderList";
 import Card from "./assi/Card";
 import Cardtest from "./assi/Cardtest";
+import PassProps from "./assi/PassProps";
+import PassMoney from "./assi/PassMoney";
+import CategoryButton from "./assi/CategoryButton";
+import HomeComponnts from "./components/HomeComponents";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
@@ -20,6 +25,10 @@ const App = () => {
       <Route path="/list" element={<HeaderList />} /> {/* 드롭 메뉴창 */}
       {/* <Route path="/card" element={<Card />} /> 드롭 메뉴창 */}
       <Route path="/cardt" element={<Cardtest />} /> {/* 드롭 메뉴창 */}
+      <Route path="/pass" element={<PassMoney />} /> {/* 드롭 메뉴창 */}
+      <Route path="/ca" element={<CategoryButton />} /> {/* 드롭 메뉴창 */}
+      <Route path="/home1" element={<HomeComponnts />} /> {/* 드롭 메뉴창 */}
+      <Route path="/homepage" element={<HomePage />} /> {/* 드롭 메뉴창 */}
     </Routes>
   );
 };

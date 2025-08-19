@@ -21,14 +21,14 @@ function Button({ font, isActive, onClick }: ButtonProps) {
         justifyContent: "flex-start",
         paddingLeft: "18px",
         cursor: "pointer",
-        transition: "0.2s", // 부드럽게 색 변환
+        transition: "0.2s",
       }}
     >
       <p
         style={{
           fontSize: "17px",
           fontWeight: "bold",
-          color: isActive ? "#FFFFFF" : "#6A6A6A", // 선택 시 텍스트 색상 변경
+          color: isActive ? "#FFFFFF" : "#6A6A6A", // 텍스트 색상 변경
           margin: 0,
         }}
       >
@@ -53,8 +53,8 @@ export default function ButtonList() {
     <div
       style={{
         display: "flex",
-        flexDirection: "column", // 세로 정렬
-        gap: "7px", // 버튼 사이 간격
+        flexDirection: "column", // 세로
+        gap: "7px", // 버튼
       }}
     >
       {buttons.map((text) => (

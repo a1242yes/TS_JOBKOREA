@@ -13,7 +13,7 @@ export default function HeaderList() {
           display: "flex",
           width: "100%",
           height: "100%",
-          alignItems: "flex-start", // 이 부분이 핵심!
+          alignItems: "flex-start",
         }}
       >
         <div

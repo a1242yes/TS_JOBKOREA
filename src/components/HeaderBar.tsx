@@ -97,7 +97,7 @@ export default function HeaderBar() {
         <div
           style={{
             position: "absolute",
-            top: "212px", // HeaderBar 바로 아래
+            top: "212px",
             left: "0",
             width: "100%",
             height: "570px",

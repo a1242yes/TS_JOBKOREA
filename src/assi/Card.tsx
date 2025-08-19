@@ -36,6 +36,8 @@ export default function Card({
           flexDirection: "column",
           transition: "height 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
           cursor: "pointer",
+          position: "relative",
+          zIndex: isHovered ? 10 : 1,
         }}
       >
         {/* 상단 이미지 - 고정 영역 */}
@@ -44,7 +46,7 @@ export default function Card({
             style={{
               width: "100%",
               height: isHovered ? "280px" : "143px",
-              backgroundImage: "{logoimg}",
+              backgroundImage: `url(${backgroundimg})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -94,13 +96,14 @@ export default function Card({
           </div>
         </div>
 
-        {/* 본문 */}
+        {/* 본문 - 수정된 부분 */}
         <div
           style={{
             flex: 1,
             padding: "40px 18px 18px",
             display: "flex",
             flexDirection: "column",
+            position: "relative",
           }}
         >
           <p
@@ -109,6 +112,7 @@ export default function Card({
               margin: "0",
               fontWeight: "bold",
               color: "#333",
+              whiteSpace: "pre-line",
             }}
           >
             {title}
@@ -138,6 +142,7 @@ export default function Card({
                 fontSize: "18px",
                 color: "#6A6A6A",
                 margin: "0 0 20px 0",
+                whiteSpace: "pre-line",
                 lineHeight: "1.4",
               }}
             >
@@ -173,15 +178,17 @@ export default function Card({
             </button>
           </div>
 
-          {!isHovered && <div style={{ flexGrow: 1 }} />}
-
+          {/* 하단 정보 - 항상 맨 아래 고정 */}
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
               fontSize: "15px",
               color: "#555",
-              marginTop: isHovered ? "0" : "14px",
+              position: "absolute",
+              bottom: "18px",
+              left: "18px",
+              right: "18px",
             }}
           >
             <span>{best}</span>

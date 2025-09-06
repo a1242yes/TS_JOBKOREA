@@ -12,7 +12,7 @@ export default function PassMoney() {
       <div style={{ marginRight: "20px" }}>
         <Pass
           company="시루정보"
-          title="Javs 개발"
+          title="Java 개발"
           text="도서 구입비 지원   명절선물/명절상여"
         />
       </div>

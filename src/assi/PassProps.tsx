@@ -66,7 +66,7 @@ export default function Pass({ company, title, text }: PassProps) {
           style={{
             display: "flex",
             justifyContent: "space-between", // 양 끝 배치
-            alignItems: "center", // 세로 가운데 정렬
+            alignItems: "center", // 세로
             marginTop: "70px", // 필요 시 간격
           }}
         >

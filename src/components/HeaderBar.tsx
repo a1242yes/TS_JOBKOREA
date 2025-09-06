@@ -107,7 +107,7 @@ export default function HeaderBar() {
           left: "clamp(100px, 10.4vw, 200px)",
           display: "flex",
           alignItems: "center",
-          gap: "clamp(100px, 12.9vw, 248px)",
+          gap: "clamp(50px, 10vw, 200px)",
           width: "auto",
         }}
         onMouseEnter={() => setShowDropdown(true)}
@@ -125,7 +125,7 @@ export default function HeaderBar() {
             top: "100%",
             left: "0",
             width: "100%",
-            height: "clamp(400px, 29.7vw, 570px)",
+            height: "clamp(400px, 29.7vw, 760px)",
             backgroundColor: "white",
             border: "1px solid #e0e0e0",
             boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
@@ -158,10 +158,11 @@ export default function HeaderBar() {
             min-height: 300px !important;
           }
 
-          div[style*="position: absolute; bottom: 0px"] {
+          div[style*="position: absolute; top: -50px"] {
             position: relative !important;
-            bottom: auto !important;
+            top: auto !important;
             left: auto !important;
+            transform: none !important;
             margin-top: 20px !important;
             width: 100% !important;
             justify-content: space-around !important;

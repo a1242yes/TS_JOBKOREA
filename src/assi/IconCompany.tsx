@@ -55,7 +55,7 @@ export default function IconCompany() {
           />
           <p
             style={{
-              fontSize: "clamp(14px, 0.9vw, 24px)",
+              fontSize: "clamp(11px, 0.9vw, 24px)",
               margin: 0,
               color: "#333",
               fontWeight: "500",

@@ -125,7 +125,7 @@ export default function HeaderBar() {
             top: "100%",
             left: "0",
             width: "100%",
-            height: "clamp(400px, 29.7vw, 760px)",
+            height: "clamp(320px, 29.7vw, 760px)",
             backgroundColor: "white",
             border: "1px solid #e0e0e0",
             boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
